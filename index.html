@@ -15,8 +15,44 @@
 </head>
 
 <body>
+  
     <div class="main-container">
-        <header></header>
+        <header>
+            <nav>
+                <div class="logo flex">
+                    <img src="images/logo/Booki.png" alt="logo Booki" title="Logo Booki">
+                </div>
+                <div class="liens flex">
+                    <a href="#" class="lien">Hébergement</a>
+                    <a href="#" class="lien">Activités</a>
+                 </div>
+            </nav>
+        </header>
+
+        <h2>Trouvez votre hébergement pour des vacances de rêves</h2>
+        <p>En plein centre-ville ou en pleine nature</p>
+
+        <!-- ARRIVER A ALIGNER LE TABLEAUX SUR LA MARGE DE GAUCHE -->
+        
+        <table>
+            <form method="get" action="#">
+                <div>
+                    <fieldset class="fieldset flex">
+                        <i class="fa-solid fa-location-pin flex border ping"></i> 
+                        <input type="text" placeholder="Marseille, France" class="border">
+                        <input type="button" value="Recherche" id="button" id class="button-recherche">
+                    </fieldset>
+                </div>
+            </form>
+        </table>
+
+        <div class="flex filtres">
+            <h2>Filtres</h2>
+                <i class="fa-solid fa-money-bill-wave"></i>
+                <button type="button" class="button-filtres" >Economique</button>
+
+        </div>
+
         <main>
             <div class="hebergements-and-populaires">
                 <section class="hebergements">
